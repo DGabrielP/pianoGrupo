@@ -1,0 +1,44 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    align-items: center; 
+    padding: 1em;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .leftH h1 {
+    margin: 0;
+    padding-left: 1em; 
+  }
+  
+  .centerH {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    margin: 0;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .nav-list a:hover {
+    text-decoration: underline;
+  }
+  
+  .rightH {
+    display: flex;
+    justify-content: flex-end; /* Alinea a la derecha */
+    padding-right: 1em; /* Separación del borde derecho */
+  }
