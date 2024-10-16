@@ -12,8 +12,8 @@ export default function Head() {
       <div className='centerH'>
         <nav>
           <ul className="nav-list">
-            <li><Link to="/">Inicio</Link></li>
-            <li><Link to="/game">Jugar</Link></li>
+            <li><Link to="/">Nueva sesiòn</Link></li>
+            <li><Link to="/game">Seguir donde lo deje</Link></li>
           </ul>
         </nav>
       </div>
