@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/home';
-import Game from './pages/game';
+import PageOne from './pages/pageOne';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/game" element={<Game />} />
+        <Route path="/pageOne" element={<PageOne/>} />
       </Routes>
     </Router>
   );

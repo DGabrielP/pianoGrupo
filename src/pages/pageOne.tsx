@@ -1,13 +1,13 @@
 
 import Head from '../components/head';
-import Body from '../components/body'; 
+import Game from '../components/game'; 
  
-export default function Game() {
+export default function PageOne() {
   return (
     <>
       <Head />
       <main style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-        <Body />
+        <Game />
       </main>
     </>
   );

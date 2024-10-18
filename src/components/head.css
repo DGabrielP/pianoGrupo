@@ -3,9 +3,13 @@
     grid-template-columns: 1fr 2fr 1fr; 
     align-items: center; 
     padding: 1em;
-    background-color: #f8f9fa;
+    background-color: #0a0d3a;
     border-bottom: 1px solid #dee2e6;
   }
+
+h1 {
+  color:#dee2e6
+}
   
   .leftH h1 {
     margin: 0;
@@ -30,7 +34,7 @@
   
   .nav-list a {
     text-decoration: none;
-    color: #000;
+    color: hsl(0, 26%, 95%);
   }
   
   .nav-list a:hover {
