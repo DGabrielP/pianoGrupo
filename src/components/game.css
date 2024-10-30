@@ -1,24 +1,23 @@
-.game-container {
-    text-align: center;
-    margin: 20px auto;
-    width: 80%;
-  }
-  
-  .piano {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  button {
-    width: 60px;
-    height: 200px;
-    background-color: white;
-    border: 1px solid black;
-    cursor: pointer;
-  }
-  
-  button:active {
-    background-color: lightgray;
-  }
-  
+.teclas {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: blueviolet;
+}
+
+button {
+  width: 60px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+button.active {
+  background-color: lightgray;
+}
+
+button:active {
+  background-color: lightgray;
+}
